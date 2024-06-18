@@ -42,7 +42,7 @@ $getUData = @file_get_contents('secure/_sessionData');
     }
 //-----------------------------------------------------------------------//
 {
-$chnDetailsAPI = 'https://kong-tatasky.videoready.tv/content-detail/pub/api/v1/channels/'.$id;
+$chnDetailsAPI = 'https://ts-more-api.videoready.tv/content-detail/pub/api/v2/channels/'.$id;
 $chnDlHeads = array('Accept-Language: en-US,en;q=0.9',
                     'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
                     'device_details: {"pl":"web","os":"WINDOWS","lo":"en-us","app":"1.36.63","dn":"PC","bv":104,"bn":"CHROME","device_id":"24662b4f995b7b3d348211c94fdaa080","device_type":"WEB","device_platform":"PC","device_category":"open","manufacturer":"WINDOWS_CHROME_104","model":"PC","sname":"'.$TPAUTH['subscriberNAME'].'"}',
